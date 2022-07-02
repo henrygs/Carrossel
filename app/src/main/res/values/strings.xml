@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Corrossel</string>
+    <string name="dotted">&#8226;</string>
+
+    <string name="backPage">Pular</string>
+    <string name="NextPage">Próximo</string>
+</resources>

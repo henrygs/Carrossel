@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/backgroundblue">
+
+    <ImageView
+        android:id="@+id/tipLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/house"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tipTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipLogo"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        tools:text="Innovation distinguishes between a leader and a follower."/>
+
+    <TextView
+        android:id="@+id/tipSubtitle"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipTitle"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        tools:text="You can’t connect the dots looking forward; you can only connect them looking
+        backwards. So you have to trust that the dots will somehow connect in your future." />
+
+</RelativeLayout>
